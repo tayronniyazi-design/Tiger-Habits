@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiger Habits | Developer</title>
+<style>
+:root {
+  --bg:#0f172a;
+  --card:#111827;
+  --accent:#f59e0b;
+  --text:#e5e7eb;
+}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,sans-serif;
+  background:linear-gradient(135deg,#0f172a,#1e293b);
+  color:var(--text);
+}
+nav{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  padding:20px;
+}
+nav a{
+  color:white;
+  text-decoration:none;
+  font-weight:600;
+  transition:0.3s;
+}
+nav a:hover{
+  color:var(--accent);
+}
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:40px 20px;
+}
+.card{
+  background:var(--card);
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 0 30px rgba(245,158,11,0.15);
+  transition:0.4s;
+}
+.card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 0 40px rgba(245,158,11,0.3);
+}
+h1{
+  font-size:32px;
+  margin-bottom:10px;
+}
+.highlight{
+  color:var(--accent);
+}
+footer{
+  text-align:center;
+  padding:30px;
+  opacity:0.6;
+}
+@media(max-width:600px){
+  h1{font-size:24px;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="privacy.html">Privacy</a>
+<a href="support.html">Support</a>
+<a href="marketing.html">Marketing</a>
+</nav>
+
+<div class="container">
+<div class="card">
+<h1>About <span class="highlight">Tiger Habits</span></h1>
+<p>Tiger Habits is a daily habit and activity tracking application designed to help users build consistency through small daily wins.</p>
+<p>The app focuses on simplicity, transparency and long-term self-improvement.</p>
+</div>
+
+<br>
+
+<div class="card">
+<h1>Developer Information</h1>
+<p><strong>Name:</strong> Niyazi Tayron</p>
+<p><strong>Contact:</strong> tayronniyazi@gmail.com</p>
+<p>I am an independent beginner developer working on creating meaningful digital tools. My goal is to provide honest, useful and transparent applications that improve users' daily lives.</p>
+</div>
+</div>
+
+<footer>
+© 2026 Niyazi Tayron | Tiger Habits
+</footer>
+
+</body>
+</html>
